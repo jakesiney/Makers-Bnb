@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MakersBnB</title>
+
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <img src="/static/img/logo2.png" alt="logo" width="250" />
+    <div class="nav">
+      <a href="/" class="button">Home</a>
+      <a href="/bookings" class="button">Requests</a>
+      <a href="/user" class="button">My account</a>
+      <a href="/logout" class="button">Log out</a>
+    </div>
+    <h1>Book a Space</h1>
+    <h2>Escape to anywhere, anytime on Makers BnB</h2>
+    <div class="book_space">
+      <a href="/space" class="button">List a Space</a>
+    </div>
+    {% for space in spaces %}
+    <div class="list_of_spaces">
+      <h3>
+        <a class="link" href="/spaces/{{ space.id }}"
+          >{{ space.name }} {{ space.description }}</a
+        >
+      </h3>
+      <img src="{{space.profile_photo}}" class="profile_photo" />
+    </div>
+    {% endfor %}
+  </body>
+</html>

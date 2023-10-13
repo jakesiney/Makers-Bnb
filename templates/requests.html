@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MakersBnB</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  <body>
+    <img src="/static/img/logo2.png" alt="logo" width="250"/>
+    <div class="nav">
+      <a href="/" class="button">Home</a>
+      <a href="/spaces" class="button">Spaces</a>
+      <a href="/bookings" class="button">Requests</a>
+      <a href="/" class="button">Log out</a>
+    </div>
+    <h1>Requests</h1><br>
+
+    <br>
+    {% for booking in bookings %}
+    <div class="list_of_bookings">
+      <h3>
+        <a class="link" href="/bookings/{{ booking.id }}"
+          >{{ booking.booking_date }}</a
+        >
+      </h3>
+    </div>
+    {% endfor %}
+  </body>
+</html>
