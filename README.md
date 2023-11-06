@@ -1,4 +1,4 @@
-##Welcome to the Makersbnb clone project! 
+#Welcome to the Makersbnb clone project! 
 
 This collaborative effort involved a team of six developers who dedicated three days to create an impressive Airbnb clone.
 
