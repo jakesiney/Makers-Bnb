@@ -1,9 +1,8 @@
+##Welcome to the Makersbnb clone project! 
 
-# Makersbnb clone
+This collaborative effort involved a team of six developers who dedicated three days to create an impressive Airbnb clone.
 
-This codebase is a group project built by six devs over the course of 3 days, we were tasked with creating an Airbnb clone.
-
-We built a fully functioning web app that allows a user to login or create an account, create listings or book an exising listing.
+In this project, we successfully built a fully functioning web application where users can either log in or create an account. Users have the flexibility to create their own listings or book existing ones. Our backend was crafted using Python, employing a test-driven approach. We utilised a variety of repository classes and embraced object-oriented programming principles to ensure a robust and efficient system.
 
 
 ## Tech Stack
